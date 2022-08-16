@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.galleryTitle {
+  font-family: "NewRocker";
+  color: black;
+  font-size: 75px;
+  -webkit-text-stroke: 1px #262d71;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  width: 98vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.albumCard {
+  width: 20%;
+  margin: 25px;
+}
+
+.albumCardImg {
+  height: 350px;
+}
+
+.galleryFooter {
+  font-family: "NewRocker";
+  color: white;
+  font-size: 50px;
+  -webkit-text-stroke: 1px black;
+  width: 98vw;
+}
